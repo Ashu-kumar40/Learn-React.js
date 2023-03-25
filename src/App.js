@@ -1,21 +1,38 @@
 import "./App.css";
-import Hello from "./Components/Test";
-import Message from "./Components/Classcomp";
-import Fun2 from "./Components/Props_in_FBC";
-import Fun3 from './Components/Props_in_CBC'
-
+import ConditionalComp from "./Components/ConditionalComp";
+// import Hello from "./Components/Profile";
+// import Message from "./Components/Classcomp";
+// import Fun2 from "./Components/Props_in_FBC";
+// import Fun3 from './Components/Props_in_CBC'
+import Counter from './Components/counter'
+import Profile from './Components/DestructuringProps'
+import PetName from './Components/DestructuringPropsCBC'
+import EventBindingCBC from "./Components/EventBindingCBC";
+import Eventhandeling from './Components/EventHandeling'
+import EventHandelingCBC from "./Components/EventHandelingCBC";
+import CounterFBC from "./Components/UseStateFBC";
 function App() {
   return (
     <div className="App">
-      <Hello />
-      <Message />
+      {/* <Profile name="Ashu" lastname="Kumar" /> */}
+      {/* <PetName name="Taffy" /> */}
+      {/* <Hello /> */}
+      {/* <Message /> */}
 
       {/* using props in function base components */}
-      <Fun2 name = 'Ashu' />
-      <Fun2 name = 'Nishant' sirname='prajapati' />
+      {/* <Fun2 name = 'Ashu' /> */}
+      {/* <Fun2 name = 'Nishant' sirname='prajapati' /> */}
       
       {/* using props in class base components */}
-      <Fun3 age = '20' />
+      {/* <Fun3 age = '20' /> */}
+
+      {/* <Counter /> */}
+
+      {/* <EventHandeling /> */}
+      {/* <EventHandelingCBC /> */}
+      {/* <EventBindingCBC /> */}
+      {/* <CounterFBC /> */}
+      <ConditionalComp />
     </div>
   );
 }
