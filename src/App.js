@@ -1,5 +1,6 @@
 import "./App.css";
 import ConditionalComp from "./Components/ConditionalComp";
+import { ConditionalRendering } from "./Components/ConditionalRendering";
 // import Hello from "./Components/Profile";
 // import Message from "./Components/Classcomp";
 // import Fun2 from "./Components/Props_in_FBC";
@@ -10,6 +11,8 @@ import PetName from './Components/DestructuringPropsCBC'
 import EventBindingCBC from "./Components/EventBindingCBC";
 import Eventhandeling from './Components/EventHandeling'
 import EventHandelingCBC from "./Components/EventHandelingCBC";
+import Mapping from "./Components/Mapping";
+import TernaryConditionalRendering from "./Components/TernaryConditionalRendering";
 import CounterFBC from "./Components/UseStateFBC";
 function App() {
   return (
@@ -32,7 +35,10 @@ function App() {
       {/* <EventHandelingCBC /> */}
       {/* <EventBindingCBC /> */}
       {/* <CounterFBC /> */}
-      <ConditionalComp />
+      {/* <ConditionalComp /> */}
+      {/* <ConditionalRendering /> */}
+      {/* <TernaryConditionalRendering /> */}
+      <Mapping />
     </div>
   );
 }
