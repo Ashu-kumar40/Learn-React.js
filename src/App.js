@@ -1,19 +1,20 @@
 import "./App.css";
-import ConditionalComp from "./Components/ConditionalComp";
-import { ConditionalRendering } from "./Components/ConditionalRendering";
+// import ConditionalComp from "./Components/ConditionalComp";
+// import { ConditionalRendering } from "./Components/ConditionalRendering";
 // import Hello from "./Components/Profile";
 // import Message from "./Components/Classcomp";
 // import Fun2 from "./Components/Props_in_FBC";
 // import Fun3 from './Components/Props_in_CBC'
-import Counter from './Components/counter'
-import Profile from './Components/DestructuringProps'
-import PetName from './Components/DestructuringPropsCBC'
-import EventBindingCBC from "./Components/EventBindingCBC";
-import Eventhandeling from './Components/EventHandeling'
-import EventHandelingCBC from "./Components/EventHandelingCBC";
-import Mapping from "./Components/Mapping";
-import TernaryConditionalRendering from "./Components/TernaryConditionalRendering";
-import CounterFBC from "./Components/UseStateFBC";
+// import Counter from './Components/counter'
+// import Profile from './Components/DestructuringProps'
+// import PetName from './Components/DestructuringPropsCBC'
+// import EventBindingCBC from "./Components/EventBindingCBC";
+// import Eventhandeling from './Components/EventHandeling'
+// import EventHandelingCBC from "./Components/EventHandelingCBC";
+// import Mapping from "./Components/Mapping";
+import RenderingList_1 from "./Components/RenderingList_1";
+// import TernaryConditionalRendering from "./Components/TernaryConditionalRendering";
+// import CounterFBC from "./Components/UseStateFBC";
 function App() {
   return (
     <div className="App">
@@ -38,7 +39,8 @@ function App() {
       {/* <ConditionalComp /> */}
       {/* <ConditionalRendering /> */}
       {/* <TernaryConditionalRendering /> */}
-      <Mapping />
+      {/* <Mapping /> */}
+      <RenderingList_1 />
     </div>
   );
 }
