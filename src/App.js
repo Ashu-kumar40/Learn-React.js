@@ -13,6 +13,7 @@ import "./App.css";
 // import EventHandelingCBC from "./Components/EventHandelingCBC";
 // import Mapping from "./Components/Mapping";
 import RenderingList_1 from "./Components/RenderingList_1";
+import RenderingList_2 from "./Components/RenderingList_2";
 // import TernaryConditionalRendering from "./Components/TernaryConditionalRendering";
 // import CounterFBC from "./Components/UseStateFBC";
 function App() {
@@ -40,7 +41,8 @@ function App() {
       {/* <ConditionalRendering /> */}
       {/* <TernaryConditionalRendering /> */}
       {/* <Mapping /> */}
-      <RenderingList_1 />
+      {/* <RenderingList_1 /> */}
+      <RenderingList_2 />
     </div>
   );
 }
