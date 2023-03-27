@@ -1,4 +1,5 @@
 import "./App.css";
+import RenderingArray from "./Components/RenderingArray";
 // import ConditionalComp from "./Components/ConditionalComp";
 // import { ConditionalRendering } from "./Components/ConditionalRendering";
 // import Hello from "./Components/Profile";
@@ -12,10 +13,11 @@ import "./App.css";
 // import Eventhandeling from './Components/EventHandeling'
 // import EventHandelingCBC from "./Components/EventHandelingCBC";
 // import Mapping from "./Components/Mapping";
-import RenderingList_1 from "./Components/RenderingList_1";
-import RenderingList_2 from "./Components/RenderingList_2";
+// import RenderingList_1 from "./Components/RenderingList_1";
+// import RenderingList_2 from "./Components/RenderingList_2";
 // import TernaryConditionalRendering from "./Components/TernaryConditionalRendering";
 // import CounterFBC from "./Components/UseStateFBC";
+import HandelingUserInput from "./Components/HandelingUserInput";
 function App() {
   return (
     <div className="App">
@@ -42,7 +44,9 @@ function App() {
       {/* <TernaryConditionalRendering /> */}
       {/* <Mapping /> */}
       {/* <RenderingList_1 /> */}
-      <RenderingList_2 />
+      {/* <RenderingList_2 /> */}
+      {/* <RenderingArray /> */}
+      <HandelingUserInput />
     </div>
   );
 }
