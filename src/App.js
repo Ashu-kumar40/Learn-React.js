@@ -18,6 +18,7 @@ import RenderingArray from "./Components/RenderingArray";
 // import TernaryConditionalRendering from "./Components/TernaryConditionalRendering";
 // import CounterFBC from "./Components/UseStateFBC";
 import HandelingUserInput from "./Components/HandelingUserInput";
+import InlineStyling from "./Components/InlineStyling";
 function App() {
   return (
     <div className="App">
@@ -46,7 +47,8 @@ function App() {
       {/* <RenderingList_1 /> */}
       {/* <RenderingList_2 /> */}
       {/* <RenderingArray /> */}
-      <HandelingUserInput />
+      {/* <HandelingUserInput /> */}
+      <InlineStyling />
     </div>
   );
 }
