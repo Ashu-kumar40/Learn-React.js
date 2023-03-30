@@ -1,5 +1,5 @@
 import "./App.css";
-import RenderingArray from "./Components/RenderingArray";
+// import RenderingArray from "./Components/RenderingArray";
 // import ConditionalComp from "./Components/ConditionalComp";
 // import { ConditionalRendering } from "./Components/ConditionalRendering";
 // import Hello from "./Components/Profile";
@@ -17,8 +17,10 @@ import RenderingArray from "./Components/RenderingArray";
 // import RenderingList_2 from "./Components/RenderingList_2";
 // import TernaryConditionalRendering from "./Components/TernaryConditionalRendering";
 // import CounterFBC from "./Components/UseStateFBC";
-import HandelingUserInput from "./Components/HandelingUserInput";
-import InlineStyling from "./Components/InlineStyling";
+// import HandelingUserInput from "./Components/HandelingUserInput";
+// import InlineStyling from "./Components/InlineStyling";
+// import StyleSheet from "./Components/StyleSheet";
+import StyleModule from "./Components/StyleModule";
 function App() {
   return (
     <div className="App">
@@ -48,7 +50,9 @@ function App() {
       {/* <RenderingList_2 /> */}
       {/* <RenderingArray /> */}
       {/* <HandelingUserInput /> */}
-      <InlineStyling />
+      {/* <InlineStyling /> */}
+      {/* <StyleSheet /> */}
+      <StyleModule />
     </div>
   );
 }
