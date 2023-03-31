@@ -1,4 +1,6 @@
 import "./App.css";
+// import Fragments from "./Components/Fragments";
+import UseOfFragments from "./Components/UseOfFragments";
 // import RenderingArray from "./Components/RenderingArray";
 // import ConditionalComp from "./Components/ConditionalComp";
 // import { ConditionalRendering } from "./Components/ConditionalRendering";
@@ -20,7 +22,7 @@ import "./App.css";
 // import HandelingUserInput from "./Components/HandelingUserInput";
 // import InlineStyling from "./Components/InlineStyling";
 // import StyleSheet from "./Components/StyleSheet";
-import StyleModule from "./Components/StyleModule";
+// import StyleModule from "./Components/StyleModule";
 function App() {
   return (
     <div className="App">
@@ -52,7 +54,9 @@ function App() {
       {/* <HandelingUserInput /> */}
       {/* <InlineStyling /> */}
       {/* <StyleSheet /> */}
-      <StyleModule />
+      {/* <StyleModule /> */}
+      {/* <Fragments /> */}
+      <UseOfFragments />
     </div>
   );
 }
