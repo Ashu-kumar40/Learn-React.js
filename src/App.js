@@ -1,6 +1,7 @@
 import "./App.css";
+import UseCallback from "./Components/UseCallback/UseCallback";
 // import UseContext from "./Components/UseContext/UseContext";
-import UseMemo from "./Components/UseMemo";
+// import UseMemo from "./Components/UseMemo";
 // import Fragments from "./Components/Fragments";
 // import UseOfFragments from "./Components/UseOfFragments";
 // import RenderingArray from "./Components/RenderingArray";
@@ -60,7 +61,8 @@ function App() {
       {/* <Fragments /> */}
       {/* <UseOfFragments /> */}
       {/* <UseContext /> */}
-      <UseMemo />
+      {/* <UseMemo /> */}
+      <UseCallback />
     </div>
   );
 }

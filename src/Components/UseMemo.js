@@ -3,14 +3,14 @@ import React, { useMemo, useState } from 'react'
 export default function UseMemo() {
 
     const [count, setCount] = useState(0);
-    
-    const squareCount = useMemo(() =>{
-        return count*count;
+
+    const squareCount = useMemo(() => {
+        return count * count;
     }, [count])
 
     return (
         <>
-        <h1>useMemo( ) hook theory</h1>
+            <h1>useMemo( ) hook theory</h1>
             <p>
                 Imagine you have a toy box with different toys inside. Every time you want to play with a toy, you need to take it out of the box. But sometimes, taking out the toys from the box can take a bit of time.
             </p>
@@ -27,11 +27,18 @@ export default function UseMemo() {
             <div>
                 <h2>Count: {count}</h2>
                 <h2>Squared Count: {squareCount}</h2>
-                <button onClick = {() => {
-                    setCount(count+1);
+                <button onClick={() => {
+                    setCount(count + 1);
                 }}>Increment</button>
-                <button onClick={()=> setCount(0)}>Reset</button>
+                <button onClick={() => setCount(0)}>Reset</button>
             </div>
+
+            <p>
+                With useMemo(), the computer only calculates the squared number when the original number changes. It's like telling the computer, "Hey, if the number didn't change, you don't need to recalculate the square, just use the one you remembered!"
+            </p>
+            <p> 
+                And that's how useMemo() helps the computer be smart and efficient, just like you when you remember where your favorite toys are without digging through the whole toy box every time!
+            </p>
         </>
     )
 }
