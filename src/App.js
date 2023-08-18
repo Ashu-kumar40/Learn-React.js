@@ -1,6 +1,7 @@
 import "./App.css";
+import UseContext from "./Components/UseContext/UseContext";
 // import Fragments from "./Components/Fragments";
-import UseOfFragments from "./Components/UseOfFragments";
+// import UseOfFragments from "./Components/UseOfFragments";
 // import RenderingArray from "./Components/RenderingArray";
 // import ConditionalComp from "./Components/ConditionalComp";
 // import { ConditionalRendering } from "./Components/ConditionalRendering";
@@ -56,7 +57,8 @@ function App() {
       {/* <StyleSheet /> */}
       {/* <StyleModule /> */}
       {/* <Fragments /> */}
-      <UseOfFragments />
+      {/* <UseOfFragments /> */}
+      <UseContext />
     </div>
   );
 }
