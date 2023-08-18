@@ -1,5 +1,6 @@
 import "./App.css";
-import UseContext from "./Components/UseContext/UseContext";
+// import UseContext from "./Components/UseContext/UseContext";
+import UseMemo from "./Components/UseMemo";
 // import Fragments from "./Components/Fragments";
 // import UseOfFragments from "./Components/UseOfFragments";
 // import RenderingArray from "./Components/RenderingArray";
@@ -58,7 +59,8 @@ function App() {
       {/* <StyleModule /> */}
       {/* <Fragments /> */}
       {/* <UseOfFragments /> */}
-      <UseContext />
+      {/* <UseContext /> */}
+      <UseMemo />
     </div>
   );
 }
