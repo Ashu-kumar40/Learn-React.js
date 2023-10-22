@@ -1,5 +1,7 @@
 import "./App.css";
-import UseCallback from "./Components/UseCallback/UseCallback";
+import AddTodo from "./React_Redux/feature/AddTodo";
+import Todos from "./React_Redux/feature/Todos";
+// import UseCallback from "./Components/UseCallback/UseCallback";
 // import UseContext from "./Components/UseContext/UseContext";
 // import UseMemo from "./Components/UseMemo";
 // import Fragments from "./Components/Fragments";
@@ -26,6 +28,7 @@ import UseCallback from "./Components/UseCallback/UseCallback";
 // import InlineStyling from "./Components/InlineStyling";
 // import StyleSheet from "./Components/StyleSheet";
 // import StyleModule from "./Components/StyleModule";
+
 function App() {
   return (
     <div className="App">
@@ -62,7 +65,9 @@ function App() {
       {/* <UseOfFragments /> */}
       {/* <UseContext /> */}
       {/* <UseMemo /> */}
-      <UseCallback />
+      {/* <UseCallback /> */}
+      <AddTodo />
+      <Todos />
     </div>
   );
 }
